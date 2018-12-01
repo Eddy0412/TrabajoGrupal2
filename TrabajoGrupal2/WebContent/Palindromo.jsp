@@ -9,9 +9,9 @@
 <body>
 
 
- <form name="form1" action="request.jsp" method="POST">
+ <form name="form1" action="leerPalabra" method="POST">
       Insertar texto: 
-      <input type="text" name="txt1" maxlength="10" size="15" />
+      <input type="text" name="palabra" maxlength="10" size="15" />
       <br/>
       <br>
        <input value="Evaluar" type="submit">
