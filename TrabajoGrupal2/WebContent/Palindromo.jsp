@@ -10,7 +10,7 @@
 <body>
 
 
- <form name="form1" action="/LeerPalabra" method="POST">
+ <form name="form1" action="LeerPalabra" method="POST">
       Insertar texto: 
       <input type="text" name="palabra" maxlength="10" size="15" />
       <br/>
@@ -18,8 +18,16 @@
        <input value="Evaluar" type="submit">
 </form>
 <%
-String resultadoPalabra = "";
-/* int evaluador = Palindromo.evaluar(wording); */
+if(request.getAttribute("isPalindromo")!=null)
+{
+	boolean isPalindromo = (boolean)request.getAttribute("isPalindromo");
+	
+	if(isPalindromo)
+		out.print("Es palindromo");
+	else
+		out.print("No es Palindromo");	
+}
+
 %>
 </body>
 </html>
