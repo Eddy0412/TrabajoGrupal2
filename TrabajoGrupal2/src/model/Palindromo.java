@@ -2,19 +2,19 @@ package model;
 
 public class Palindromo {
 
-	private String palabra;
+	private String insertedWord;
+	String reversed = "";
 	
-	public Palindromo(String palabra) {
-		super();
-		
-		this.setPalabra(palabra);
+	public Palindromo(String inputWord) {
+/*		super();*/
+		this.setInsertedWord(inputWord);
 	}
-	public String getPalabra() {
-		return palabra;
-	}
-	public void setPalabra(String palabra) {
-		this.palabra = palabra;
-	}
-	
 
+	public String getInsertedWord() {
+		return insertedWord;
+	}
+
+	public void setInsertedWord(String insertedWord) {
+		this.insertedWord = insertedWord;
+	}
 }
