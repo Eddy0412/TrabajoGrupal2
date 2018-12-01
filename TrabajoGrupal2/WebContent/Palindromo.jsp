@@ -8,5 +8,14 @@
 </head>
 <body>
 
+
+ <form name="form1" action="request.jsp" method="POST">
+      Insertar texto: 
+      <input type="text" name="txt1" maxlength="10" size="15" />
+      <br/>
+      <br>
+       <input value="Evaluar" type="submit">
+
+</form>
 </body>
 </html>
