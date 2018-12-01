@@ -83,7 +83,7 @@
                   <p class="card-text"><strong>Palindromo</strong><br> This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <a class="btn btn-sm btn-outline-secondary" href="#">View</a>
+                      <a class="btn btn-sm btn-outline-secondary" href="Palindromo.jsp">View</a>
                       <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                     </div>
                     <small class="text-muted">9 mins</small>
