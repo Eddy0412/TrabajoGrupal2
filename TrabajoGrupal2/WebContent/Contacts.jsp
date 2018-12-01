@@ -50,5 +50,9 @@
 			%>
 		</tbody>
 	</table>
+	<form action="index.jsp">
+<label>Click para Regresar</label>
+<input type="submit" value="regresar"></input>
+</form>
 </body>
 </html>

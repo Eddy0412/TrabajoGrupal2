@@ -29,5 +29,9 @@ if(request.getAttribute("isPalindromo")!=null)
 }
 
 %>
+<form action="index.jsp">
+<label>Click para Regresar</label>
+<input type="submit" value="regresar"></input>
+</form>
 </body>
 </html>
