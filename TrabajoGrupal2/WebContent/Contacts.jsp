@@ -7,14 +7,14 @@
 <title>Base de Datos de Contactos</title>
 </head>
 <body>
-<form action="" method="POST">
+<form action="buscarContacto" method="POST">
   Nombre:<br>
   <input type="text" name="contactName" value="Username">
   <br>
   Telefono:<br>
   <input type="text" name="phoneNumber" value="Phone Number">
   <br><br>
-  <input type="submit" value="Submit">
+  <input type="submit" value="Buscar">
 </form>
 <br>
 <br>
